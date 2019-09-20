@@ -1,0 +1,76 @@
+cycle en cascade
+specification
+analyse
+design
+code
+test
+
+
+
+cycle en V
+specification => test recette
+analyse => test fonctionnel
+design => test integration
+code => test unitaire
+
+uml => 9 ou 12 diagramme (use case)
+up -> process mettre en oeuvre uml
+scum uniquement processus
+
+
+2 type diagramme : statique / dynamique
+programme (gestion des commande, gestion catalogue, rech produit)
+acteur du programme (utilisateur, auth,admin,  banque)
+branchement dses utilisateurs / programme
+zoom sur 1 composant du programme
+ => diagramme de classe : analyse produit et lien entre differents objets
+ 
+diagramme dynamique => design
+ex: panier (ajouit suppression)
+interaction 
+
+
+manifeste agile : regroupement de ce qui a bien marcher dans la gestion d e projet
+scrum  processus au 12 piliers de l agilité
+XP => methodologie pour pogrammeur (pair programming) 
+      TDD (test driven dvplt) ecrire les tests avant d ecrire le code
+kanban : avance du travail mais pas de timebox
+scrum : environnement dev + gestion equipe
+
+product backlog : carte de fonctionnalité (en tant que... je veux...)
+reunion de planification de sprint : selection de sous ensemble, definir les priorité
+
+2-4 semaine = sprint de meme durée (et maintenant 1-2 semaines)
+on doit se tenir sur l intervalle choisi
+daily scrum: 15mns
+ - cequi a été fait hier
+ - difficulté
+ - ce que  je fais aujourd hui
+sprint review : presentation du travail (feedback client <=> ajout dans le backlog)
+
+retrospective: ce qui marche ou dans l ancien sprint => amelioration dans le prochain 
+
+role scrum
+scrum master, product owner, team
+PO gere le backlog : maintenir, priorisé, dial avec client : responsable du process et l amelioration du process
+5/8 personnes
+DOD (done) se mettre d accord sur fini ( code terminé, testé; deployé?)
+
+retrospective : demo + feedback
+
+ecrire user story
+autant de user story que de  cas alternatif
+ccc 
+en tant que .... je veux...afin de
+INVEST => bonne pratqiue pour erire les userstory
+ indep, gegociable, VA, estimable, petit pour etre realiser, testable
+MOSCOW : prioistation
+ Must  Should Could Wont
+Taille 
+Suite fibonashi 0->100
+PURIFF => test (unitaire, perf, ..) jmeter , junit (unitaire),test no reg, integration , fonctionnel (selenium)
+
+
+
+
+
